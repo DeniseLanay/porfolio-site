@@ -1,0 +1,137 @@
+/****BASE STYLES****/
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkcyan;
+    margin: 0;
+}
+
+/****GRID ****/
+
+.full {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half {
+    width: 600px;
+    float: left;
+}
+
+.third {
+    width: 400px;
+    float: left;
+}
+
+/****HEADER****/
+
+#header-strip {
+    background-color:#1f202b;
+    height:50px;
+    color: #ffffff;
+
+}
+
+header { 
+    height: 800px;
+    background: url('/assets/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    padding-left: 75px;
+}
+
+
+h2 { 
+    font-size: 30px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+header h3 {
+    font-family: 'Montserrat' sans-serif;
+}
+
+header {
+    font-family: 'Source Code Pro Semibold', sans-serif;
+    font-size: 50px;
+    padding: 65px 0 65px 25px;
+    margin-top: none;
+}
+
+nav {
+    float: right;
+    font-family: 'Source Sans Pro Semibold' sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 80px;
+    color: #ffffff;
+}
+
+main {
+    background-color:#1f202b ;
+}
+
+main h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 22px;
+}
+#about {
+    background: url('/assets/about-me.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #1f202b;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+span {
+    color: #fa0075;
+}
+
+#jubilee {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: darkcyan;;
+}
+
+#dcm {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: darkcyan;;
+}
+
+#rogue {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: darkcyan;
+}
