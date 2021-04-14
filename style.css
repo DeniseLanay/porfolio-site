@@ -1,12 +1,31 @@
-/****BASE STYLES****/
+/****WHOLE PAGE CSS****/
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     color: darkcyan;
+    background-color:#1f202b;
     margin: 0;
 }
 
-/****GRID ****/
+span {
+    color: #fa0075;
+}
+
+/****STRUCTURAL CSS ****/
+
+header {
+    height: 800px;
+    margin-top: 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
 
 .full {
     width: 1200px;
@@ -24,22 +43,25 @@ body {
     float: left;
 }
 
-/****HEADER****/
+#hire .third {
+   
+}
+
+
+/****STYLE CSS****/
 
 #header-strip {
-    background-color:#1f202b;
     height:50px;
     color: #ffffff;
-
 }
 
 header { 
-    height: 800px;
     background: url('/assets/hero-background.png');
     background-size: cover;
     background-position: center;
-    font-family: 'Montserrat' sans-serif;
-    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    padding: 65px 0 65px 25px;
 }
 
 h1 {
@@ -52,25 +74,13 @@ h2 {
     margin-bottom: 45px;
     margin-top: 45px;
 }
-header h3 {
-    font-family: 'Montserrat' sans-serif;
-}
 
-header {
-    font-family: 'Source Code Pro Semibold', sans-serif;
-    font-size: 50px;
-    padding: 65px 0 65px 25px;
-    margin-top: none;
-}
 
 nav {
-    float: right;
     font-family: 'Source Sans Pro Semibold' sans-serif;
 }
 
-nav ul li {
-    display: inline-block;
-}
+
 
 nav ul li a {
     text-transform: lowercase;
@@ -79,6 +89,8 @@ nav ul li a {
     padding-left: 80px;
     color: #ffffff;
 }
+
+/***MAIN CONTENT***/
 
 main {
     background-color:#1f202b ;
@@ -93,26 +105,7 @@ h3 {
 }
 
 p {
-    font-size: 22px;
-}
-#about {
-    background: url('/assets/about-me.png');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    margin-top: 100px;
-}
-
-footer {
-    background-color: #1f202b;
-}
-
-footer h2 {
-    text-align: center;
-}
-
-span {
-    color: #fa0075;
+    font-size: 20px;
 }
 
 #jubilee {
@@ -135,3 +128,24 @@ span {
     border-radius: 50px;
     border-color: darkcyan;
 }
+
+#about {
+    background: url('/assets/about-me.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 100px;
+}
+
+/***FOOTER SECTION***/
+
+footer {
+    background-color: #1f202b;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+
+
